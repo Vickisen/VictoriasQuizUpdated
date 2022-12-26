@@ -152,7 +152,7 @@ function nextQuestion()
         points.innerHTML = score + '/' + numberOfQuestions;
         if (localStorage.getItem("score") !== null)
         {
-            answerText.innerHTML = "Total highscore: " + localStorage.getItem("score") + " points";
+            answerText.innerHTML = "Total high-score: " + localStorage.getItem("score") + " points";
         }
         quizContainer.style.display = 'none';
         scoreboard.style.display = 'block';
@@ -165,7 +165,7 @@ function cancelQuiz()
     points.innerHTML = score + '/' + numberOfQuestions;
     if (localStorage.getItem("score") !== null)
     {
-        answerText.innerHTML = "Highscore: " + localStorage.getItem("score") + " points";
+        answerText.innerHTML = "High-score: " + localStorage.getItem("score") + " points";
     }
     quizContainer.style.display = 'none';
     scoreboard.style.display = 'block';
