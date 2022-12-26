@@ -220,7 +220,7 @@ function getScoreText()
     switch (score)
     {
         case score = 0:
-            scoreText.innerHTML = "Try harder!";
+            scoreText.innerHTML = "Try harder! You can do it!";
             break;
         case score = numberOfQuestions / 2:
             scoreText.innerHTML = "Half of the questions were correct.";
